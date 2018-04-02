@@ -14,6 +14,8 @@ import ro.pub.systems.eim.lab02.activitylifecyclemonitor.R;
 import ro.pub.systems.eim.lab02.activitylifecyclemonitor.general.Constants;
 import ro.pub.systems.eim.lab02.activitylifecyclemonitor.general.Utilities;
 
+import static android.content.Context.LAYOUT_INFLATER_SERVICE;
+
 public class LifecycleMonitorActivity extends AppCompatActivity {
 
     private ButtonClickListener buttonClickListener = new ButtonClickListener();
